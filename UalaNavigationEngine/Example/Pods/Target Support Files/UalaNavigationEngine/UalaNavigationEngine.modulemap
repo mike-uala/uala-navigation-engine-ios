@@ -1,0 +1,6 @@
+framework module UalaNavigationEngine {
+  umbrella header "UalaNavigationEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}

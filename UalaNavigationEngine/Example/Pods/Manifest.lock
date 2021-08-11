@@ -1,0 +1,35 @@
+PODS:
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+  - Stateful (2.2.0)
+  - UalaNavigationEngine (0.1.0):
+    - PromiseKit
+    - Stateful
+
+DEPENDENCIES:
+  - UalaNavigationEngine (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - PromiseKit
+    - Stateful
+
+EXTERNAL SOURCES:
+  UalaNavigationEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  Stateful: 92e01259d6e0b54af8ee4536ec50430b3d378063
+  UalaNavigationEngine: 27c2cbf8d5e4e867dda21ee8a7788bb7e42f2fe1
+
+PODFILE CHECKSUM: 58a4e5b386c580885174be026516c36945bc616e
+
+COCOAPODS: 1.10.1
