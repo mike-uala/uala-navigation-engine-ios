@@ -8,7 +8,8 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://medium.com/@shahabejaz/create-and-distribute-private-libraries-with-cocoapods-5b6507b57a03'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'mike-uala' => 'miguel.olmedo@ua.la' }
-  s.source           = { :git => 'https://github.com/mike-uala/UalaNavigationEngine.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/mike-uala/uala-navigation-engine-ios.git', :tag => s.version.to_s }
+
 
   s.ios.deployment_target = '11.0'
 
