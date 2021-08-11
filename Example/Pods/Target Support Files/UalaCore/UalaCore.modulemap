@@ -1,6 +1,0 @@
-framework module UalaCore {
-  umbrella header "UalaCore-umbrella.h"
-
-  export *
-  module * { export * }
-}
