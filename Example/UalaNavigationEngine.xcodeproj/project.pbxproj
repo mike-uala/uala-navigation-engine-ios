@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		052063A626C39810003D371B /* RootFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052063A526C39810003D371B /* RootFlowController.swift */; };
 		1E87D289EC106E54362FF09D /* Pods_UalaNavigationEngine_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56EE8BD4821854A38D06ABF2 /* Pods_UalaNavigationEngine_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0348ECA7B2A02D2E50E36E38 /* UalaNavigationEngine.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UalaNavigationEngine.podspec; path = ../UalaNavigationEngine.podspec; sourceTree = "<group>"; };
+		052063A526C39810003D371B /* RootFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootFlowController.swift; sourceTree = "<group>"; };
 		425B11860F639BC3D8B13C11 /* Pods-UalaNavigationEngine_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UalaNavigationEngine_Tests.release.xcconfig"; path = "Target Support Files/Pods-UalaNavigationEngine_Tests/Pods-UalaNavigationEngine_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		53938DEB44321D671F9505C4 /* Pods-UalaNavigationEngine_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UalaNavigationEngine_Tests.debug.xcconfig"; path = "Target Support Files/Pods-UalaNavigationEngine_Tests/Pods-UalaNavigationEngine_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		56EE8BD4821854A38D06ABF2 /* Pods_UalaNavigationEngine_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UalaNavigationEngine_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		052063A426C397F8003D371B /* NavigationEngineIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				052063A526C39810003D371B /* RootFlowController.swift */,
+			);
+			name = NavigationEngineIntegration;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +103,7 @@
 		607FACD21AFB9204008FA782 /* Example for UalaNavigationEngine */ = {
 			isa = PBXGroup;
 			children = (
+				052063A426C397F8003D371B /* NavigationEngineIntegration */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -337,6 +348,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				052063A626C39810003D371B /* RootFlowController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
