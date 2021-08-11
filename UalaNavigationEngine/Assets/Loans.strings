@@ -1,0 +1,529 @@
+"LOANS" = "Préstamos";
+"SAVE" = "Guardar";
+"PAY" = "Pagar";
+"NEW_LOAN" = "Nuevo préstamo";
+"CLOSE" = "Cerrar";
+"NO_MINIMUM_MONEY" = "No tenés ese saldo en tu Ualá.";
+"CREDITS" = "Créditos";
+
+// Welcome view
+
+"WELCOME_AMOUNT" = "El monto se deposita en tu Ualá.";
+"WELCOME_FEE" = "Hasta en 24 cuotas y la mejor tasa fija.";
+"WELCOME_TRANSFER" = "Podés transferir la plata a tu cuenta bancaria cuando quieras.";
+"WELCOME_TITLE" = "¡Pedí tu préstamo en minutos!";
+"REQUIREMENTS" = "Ver requisitos";
+"SIMULATION" = "Simular préstamo";
+
+// Requirements view
+
+"REQUIREMENT_COUNTRY" = "Ser ciudadano argentino o residente en el país.";
+"REQUIREMENT_AGE" = "Tener 18 años o más.";
+"REQUIREMENT_BANK" = "Tener cuenta bancaria propia.";
+"REQUIREMENT_INCOME" = "Tener ingresos comprobables mayores a min_salary.";
+"REQUIREMENT_DEBTS" = "No tener deudas registradas en los últimos 24 meses.";
+
+"REQUIREMENT" = "Requisitos";
+"REQUIREMENT_TITLE" = "Si cumplís con los requisitos,\n¡podés empezarlo ahora!";
+
+// Has bank account
+"HAS_BANK_ACCOUNT" = "¿Tenés cuenta bancaria?";
+"I_HAVE" = "Sí, tengo";
+"I_DONT_HAVE" = "No, no tengo";
+
+// Simulation view
+
+"SIMULATION_TITLE" = "Préstamo tasa fija";
+"INPUT_QUESTION" = "¿Cuál es el total de tus ingresos mensuales?";
+"INPUT_DETAIL" = "Deben estar a tu nombre y ser min_salary o más.";
+"NEXT" = "Seguir";
+"INPUT_PLACEHOLDER" = "Ingresos mensuales";
+"MIN_INPUT_VALIDATION_ERROR" = "Tus ingresos tienen que ser min_salary o más.";
+"TOTAL_GROUPED_TRANSACTIONS" = "Total consumos agrupados";
+
+
+// Loan request
+
+"JOB" = "Tipo de ocupación";
+"JOB_TYPE" = "¿Qué tipo de ocupación tenés?";
+"COMPANY_OPTION" = "Estoy en relación de dependencia";
+"AUTONOMOUS_OPTION" = "Soy autónomo";
+"TRIBUTE_OPTION" = "Soy monotributista";
+"RETIRED_OPTION" = "Soy jubilado/pensionado";
+"INFORMAL_OPTION" = "Tengo un trabajo informal";
+
+"COMPANY" = "Tipo de empresa";
+"COMPANY_TYPE" = "¿En qué tipo de empresa trabajás?";
+"BIG_COMPANY_OPTION" = "+500 personas";
+"MIDDLE_COMPANY_OPTION" = "+100 personas";
+"SMALL_COMPANY_OPTION" = "+10 personas";
+"STARTUP_OPTION" = "+1 persona";
+"BIG_COMPANY" = "Gran empresa";
+"MIDDLE_COMPANY" = "Mediana empresa";
+"SMALL_COMPANY" = "Pequeña empresa";
+"STARTUP" = "Micro-emprendimiento";
+
+"AUTONOMOUS" = "Tipo de autónomo";
+"AUTONOMOUS_TYPE" = "¿Qué tipo de autónomo sos?";
+"TRIBUTE" = "Tipo de monotributista";
+"TRIBUTE_TYPE" = "¿Qué tipo de monotributista sos?";
+"OWNER_OPTION" = "Dueño de empresa";
+"SELLER_OPTION" = "Comerciante";
+"PROFESSIONAL_OPTION" = "Profesional";
+"OFFICE_OPTION" = "Oficio";
+
+"JOB_TIME" = "Antigüedad laboral";
+"JOB_TIME_DATE" = "Fecha de antigüedad";
+"JOB_TIME_COMPANY" = "¿Cuándo empezaste a trabajar en la empresa?";
+"JOB_TIME_ACTIVITY" = "¿Cuándo comenzaste tu actividad?";
+"JOB_DATE" = "Fecha de antigüedad";
+
+"LOAN_USAGE" = "Uso del préstamo";
+"LOAN_REASON" = "¿Para qué vas a usar el préstamo?";
+"PURCHASE_OPTION" = "Compras o refacciones";
+"EDUCATION_OPTION" = "Educación";
+"EXPENSE_OPTION" = "Gastos personales";
+"COMMERCE_OPTION" = "Negocios";
+"PAYMENT_OPTION" = "Pago de deudas";
+"PS5_OPTION" = "PlayStation 5 (edición standard)";
+
+"PURCHASE" = "Tipo de compra";
+"PURCHASE_TYPE" = "¿Qué tipo de compra o refacción?";
+"CAR_OPTION" = "Comprar o arreglar mi vehículo";
+"HOUSE_OPTION" = "Comprar un terreno o una casa";
+"FIXES_OPTION" = "Mejorar, arreglar o construir mi casa";
+"PURCHASE_OTHER_OPTION" = "Comprar o arreglar otros bienes";
+
+"EDUCATION" = "Tipo de educación";
+"EDUCATION_TYPE" = "¿Qué tipo de eduación?";
+"INVEST_OPTION" = "Invertir en mi educación";
+"INVEST_OTHER_OPTION" = "Invertir en la educación de un hij@ o familiar";
+
+"EXPENSE" = "Tipo de gastos";
+"EXPENSE_TYPE" = "¿Qué tipo de gastos?";
+"FEAST_OPTION" = "Celebración";
+"MARRIAGE_OPTION" = "Compromiso o casamiento";
+"MOVE_OPTION" = "Mudanza";
+"TRAVEL_OPTION" = "Viajes o vacaciones";
+"HEALTH_OPTION" = "Salud";
+"HELP_OPTION" = "Ayudar a un amigo o familiar";
+
+"COMMERCE" = "Tipo de negocio";
+"COMMERCE_TYPE" = "¿Qué tipo de negocio?";
+"ACTIVITY_OPTION" = "Inicio de actividad independiente";
+"COMMERCE_INVESTMENT" = "Inversión en mi negocio actual";
+
+"PAYMENT" = "Tipo de pago";
+"PAYMENT_TYPE" = "¿Qué tipo de pago?";
+"DEBTS_OPTION" = "Cancelar deudas anteriores";
+"CARD_OPTION" = "Pagar tarjetas de crédito";
+"MONTH_OPTION" = "Llegar a fin de mes";
+
+// Cancel options
+
+"CANCEL_TITLE" = "No quiero el préstamo";
+"CANCEL_REASON" = "¿Por qué no querés sacar el préstamo?";
+"VALUATION_OPTION" = "La tasa es muy alta";
+"AMOUNT_OPTION" = "Los montos propuestos no me sirven";
+"TIME_OPTION" = "Los plazos propuestos no me sirven";
+"GET_OPTION" = "Ya conseguí la plata";
+"INFO_OPTION" = "Sólo buscaba información";
+"OTHER_OPTION" = "Otro";
+
+// Review
+
+"OCCUPATION" = "Ocupación";
+"EDIT" = "Editar";
+"CONFIRM" = "Están bien";
+
+// Fail placeholder
+
+"FAIL_TITLE" = "No podemos ofrecerte un préstamo por el momento";
+"FAIL_SUBTITLE" = "Si no tenés ingresos comprobables, no podemos continuar.";
+"GO_BACK" = "Ir al inicio";
+
+// Feedback placeholder
+
+"FEEDBACK_TITLE" = "En breve te daremos una respuesta";
+"FEEDBACK_TITLE_MANUAL" = "Danos 48 horas para revisar tus datos";
+"FEEDBACK_SUBTITLE" = "Vamos a prepararte una oferta con el monto definitivo que podemos prestarte.";
+"FEEDBACK_SUBTITLE_MANUAL" = "Luego de chequear tus datos vamos a prepararte una oferta con el monto definitivo que podemos prestarte.";
+"CANCEL_FEEDBACK" = "Cancelar el pedido";
+"CANCEL" = "No quiero el préstamo";
+
+// Cancel placeholder
+
+"CANCEL_PLACEHOLDER" = "Lamentamos que no hayas querido el préstamo.";
+
+// Loan offer
+
+"OFFER_TITLE" = "¡Buenas noticias!";
+"OFFER_DETAIL" = "Te ofrecemos este préstamo.\nRevisá el detalle para saber lo que incluye.";
+"OFFER_PAYMENT" = "loan_payments cuotas de payment_amount";
+"OFFER_PAYMENT_CARD" = "loan_payments cuotas fijas de payment_amount";
+"GET_LOAN" = "Pedir préstamo";
+"GET_LOAN_B" = "Pedir ahora";
+"GET_LOAN_C" = "¡Lo quiero!";
+"SEE_DETAIL" = "Ver detalle";
+
+// Data review
+
+"DATA_REVIEW" = "Revisión de datos";
+"DATA_REVIEW_HEADER" = "¡Genial! Sigamos, queda poco";
+
+"PERSONAL_DATA" = "Datos personales";
+"ADDRESS_CONFIRMATION" = "Domicilio";
+"PHONE_VALIDATION" = "Celular";
+"WORK_DATA" = "Datos laborales";
+"WORK_ADDRESS" = "Domicilio laboral";
+"WORK_PHONE" = "Teléfono";
+"ATTACHMENTS" = "Fotos de validación";
+"SELFIE" = "Selfie";
+"RECEIPT_SALARY" = "Recibo de sueldo";
+"RECEIPT_RETIRED" = "Recibo de jubilación o pensión";
+"RECEIPT_AUTONOMOUS" = "F711 de ganancias";
+"RECEIPT_TRIBUTE" = "Inscripción a monotributo";
+
+// Loans Attachment
+
+"LOANSATTACHMENT_HOME_TITLE" = "Fotos de validación";
+"LOANSATTACHMENT_HOME_INFO_TITLE" = "Vamos a chequear tus \n datos con algunas fotos";
+"LOANSATTACHMENT_HOME_INFO_DESCRIPTION" = "Nos sirve para confirmar la \n información sobre tu trabajo.";
+"SELFIE" = "Selfie";
+"DOCUMENT" = "Recibo de sueldo";
+"SELFIE_REVIEW_TITLE" = "¿Cómo la ves?";
+"SELFIE_REVIEW_DESCRIPTION" = "Asegurate de que no esté movida, tenga buena luz y pueda servir para compararla con la del DNI.";
+"DOCUMENT_REVIEW_TITLE"= "¿Se leen bien los datos?";
+"DOCUMENT_REVIEW_DESCRIPTION"= "Asegurate de que no esté movida, tenga buena luz y no haya información tapada.";
+"SELFIE_REVIEW_CANCEL" = "Cambiar foto";
+"SELFIE_REVIEW_CONFIRM" = "Se ve bien";
+
+// Loan Address Review
+"ADDRESS_REVIEW_QUESTION" = "¿Seguís viviendo en el mismo domicilio?";
+"ADDRESS_REVIEW_CHANGEBUTTON" = "Otro domicilio";
+"ADDRESS_REVIEW_CONFIRMBUTTON" = "Sí, vivo ahí";
+
+// Edit address
+"ADDRESS" = "Domicilio";
+"PERSONAL_ADDRESS" = "Domicilio personal";
+"WORK_ADDRESS" = "Domicilio laboral";
+"PERSONAL_HEADER_ADDRESS" = "¿Dónde vivís?";
+"WORK_HEADER_ADDRESS" = "¿Dónde trabajás?";
+"PERSONAL_HEADER_PROVINCE" = "¿En qué provincia vivís?";
+"WORK_HEADER_PROVINCE" = "¿En qué provincia trabajás?";
+
+"ADDRESS_STREET" = "Calle";
+"ADDRESS_NUMBER" = "Altura";
+"ADDRESS_FLOOR" = "Piso";
+"ADDRESS_DPTO" = "Dpto";
+
+"ADDRESS_POSTAL_CODE" = "Código postal";
+"ADDRESS_POSTAL_CODE_TITLE" = "¿Cuál es tu código postal?";
+"ADDRESS_PROVINCE" = "Provincia";
+"ADDRESS_CITY" = "Localidad";
+"ADDRESS_CITY_TITLE" = "Y ¿en qué localidad?";
+
+
+// Loan Expiration Days
+"EXPIRATION_DAYS_OPTION_TEXT" = "El $value de cada mes";
+"EXPIRATION_DAYS_SECTION_HEADER_TITLE" = "¿En qué día del mes querés hacer el pago de las cuotas?";
+"EXPIRATION_DAYS_SECTION_HEADER_SUBTITLE" = "Si cae fin de semana, se pasa para el siguiente día hábil.";
+
+// Loan Extra Phonenumber
+"EXTRA_PHONENUMBER_TITLE" = "Teléfono extra";
+"MOBILEPHONE" = "Celular";
+"LANDLINE" = "Fijo";
+"AREA_CODE" = "Cod. de área";
+"NUMBER" = "Número";
+"OWNER_PHONE_NUMBER_QUESTION" = "¿De quién es el número?";
+"PHONE_EXAMPLE" = "Sin el 15. Ej.: 34529464";
+
+"PHONE_EXTRA_TITLE" = "¿Podés darnos un teléfono extra para contactarte?";
+"PHONE_EXTRA_SUBTITLE" = "No puede ser tu número de celular.";
+
+"PHONE_WORK_TITLE" = "¿Cuál es el teléfono fijo de la empresa o comercio?";
+"WORK_PHONENUMBER_TITLE" = "Teléfono laboral";
+"WORK_NO_PHONE" = "Mi empresa no tiene número";
+
+// Loan Phone Validation
+"PHONE_VALIDATION_VIEW_TITLE" = "Envío de código";
+"PHONE_VALIDATION_TITLE" = "Te vamos a enviar un código para que valides tu celular a:";
+"PHONE_VALIDATION_INFO" = "Si cambiaste de número, modificalo.";
+"PHONE_VALIDATION_ACTIONS_TITLE" = "Validar mi celular por";
+"PHONE_VALIDATION_ACTIONS_VOICE" = "Llamada de voz";
+"PHONE_VALIDATION_ACTIONS_TXT" = "Mensaje de texto";
+"PHONE_VALIDATION_VIEW_VALID_TITLE" = "Validación de celular";
+"PHONE_VALIDATION_VALID_TITLE" = "¿Este sigue siendo tu celular?";
+"PHONE_VALIDATION_VALID_PRIMARY_ACTION" = "Sí, es ese";
+"PHONE_VALIDATION_VALID_SECONDARY_ACTION" = "No, modificar";
+
+// Loan Phone Pin Validation
+"PHONE_PIN_VALIDATION_TITLE" = "Ingreso del código";
+"PHONE_PIN_VALIDATION_NO_CODE_TITLE" = "¿No te llegó el código?";
+"PHONE_PIN_VALIDATION_RESENDCODE_BUTTON" = "Enviar por llamada de voz";
+"PHONE_PIN_VALIDATION_ERROR_MESSAGE" = "Emm, ese no es el código. ¿Lo revisás?";
+
+// Loan Phone Edit User Number
+"PHONE_EDIT_USER_PHONE" = "¿Cuál es tu número de celular?";
+
+// Feedback step two
+"FEEDBACK_STEP_TWO_TITLE" = "Vamos a revisar tus datos y te avisamos";
+"FEEDBACK_STEP_TWO_SUBTITLE" = "Luego de chequear los datos que cargaste te daremos una respuesta y podrás finalizar con el pedido. ";
+
+// CBU
+"CBU_TITLE" = "CBU o Alias";
+"CBU_HEADER" = "Cuenta bancaria a tu nombre";
+"CBU_SUBTITLE" = "A este CBU le vamos a cobrar las cuotas cuando no tengas saldo en tu Ualá.";
+"CBU_PLACEHOLDER" = "Ingresá o pegá tu número de CBU";
+
+"CBU" = "CBU";
+"ALIAS" = "Alias";
+"CBU_PLACEHOLDER" = "Ingresá o pegá tu número de CBU";
+"ALIAS_PLACEHOLDER" = "Ingresá o pegá tu Alias";
+
+//Active Loan Home
+"AMOUNT_PAYABLE" = "Monto: $amount";
+"NEXT_EXPIRATION" = "Próximo vencimiento";
+"FEE_OF" = "Cuota $number de $total";
+"LOAN_STATUS" = "Préstamo: $status";
+"PAID" = "Pagado";
+"PENDING" = "Pendiente";
+"UP_TO_DATE" = "al día";
+"IN_DEBT" = "en deuda";
+"YOU_HAVE_A_DEBT" = "Tenés una deuda de $debt";
+"LOAD_YOUR_UALA_UP_TO_DATE" = "Cargá tu Ualá y ponete al día.";
+"SEE_FEES" = "Ver cuotas";
+"SEE_LOAN_DETAIL" = "Ver detalle del préstamo";
+"DOWNLOAD_CONTRACT" = "Descargar oferta";
+
+//Fee List
+"FEE_LIST_TITLE" = "Cuotas";
+"FEE_NUMBER" = "Cuota $number";
+"FEE_PAID_AT" = "Pagado - $date";
+"FEE_DEBT" = "Deuda";
+"FEE_NEXT_PAID" = "Próxima cuota";
+"FEE_PAID_IN_ADVANCE" = "Botón de baja";
+
+//Fee Detail
+"LOAN_FEE_NUMBER_TITLE" = "En $feeCount cuotas fijas de $feeAmount";
+"EXPIRATION_DATE" = "Fecha de vencimiento";
+"PAID_DATE" = "Fecha de pago";
+"STOCK" = "Capital";
+"IVA" = "IVA";
+"IVA_INTERESTS" = "Intereses+IVA";
+"INTEREST" = "Intereses";
+"IVA_COMMISSIONS" = "Comisiones+IVA";
+"IVA_PENALTIES" = "Penalidades+IVA";
+"TOTAL_FEE" = "Importe total";
+"QUOTA_MAINTANCE" = "Mantenimiento de cuota";
+"FEE_DETAIL_FOOTER" = "El valor de la cuota puede aumentar si lo pagás después de la fecha de vencimiento.";
+"FEE_DOWNLOAD_RECEIPT" = "Descargar comprobante";
+"FEE_HOW_TO_CHARGE" = "¿Cómo cargar Ualá?";
+"PENALTY_DUE" = "Penalidades";
+
+// Contract
+"CONTRACT_TITLE" = "Contrato del préstamo";
+"CONTRACT_ACCEPTANCE" = "Acepto términos y condiciones del préstamo";
+
+// Simulator
+
+"TOTAL_AMOUNT" = "Monto máximo a solicitar:";
+"TERMS_SIMULATION" = "Plazo en meses:";
+"INSTALLMENT_AMOUNT" = "Cuotas fijas de:";
+"SEND_SIMULATION" = "Enviar solicitud";
+"SIMULATION_LOAN_DETAIL" = "Ver detalle de cuotas";
+"TNA_VALUE" = "Tasa Nominal Anual (TNA): $tna%";
+"TEA_VALUE" = "Tasa Efectiva Anual (TEA): $tea%";
+"CFT_VALUE" = "Costo Financiero Total (CFT): $cft%";
+
+// Loan Approved PlaceHolder
+"LOAN_APPROVED_PLACEHOLDER_TITLE" = "¡Listo, en 24 hs tenés la plata!";
+"LOAN_APPROVED_PLACEHOLDER_MESSAGE" = "Vamos a depositarte en tu Ualá la plata del préstamo dentro de las próximas 24 horas hábiles.";
+
+// Loan Error PlaceHolder
+"LOAN_CANT_PLACEHOLDER_TITLE" = "Por ahora no podemos darte el préstamo :(";
+"LOAN_CANT_PLACEHOLDER_MESSAGE" = "Sólo podemos dárselo a quienes tengan una cuenta bancaria a su nombre";
+
+// Pay Off Due
+"TOTAL_AMOUNT_TITLE" = "Monto total pendiente";
+"PAY_OFF_DUE_FOOTER" = "No te olvides que los intereses pueden variar luego de las 00hs de hoy.";
+"PAY_OFF_FEEDBACK_TITLE" = "¡Terminaste antes de lo esperado!";
+"PAY_OFF_FEEDBACK_SUBTITLE" = "Pagaste lo que te faltaba para terminar tu préstamo. Sos un 10 en responsabilidad.";
+
+// Pay Off Due FeedBack
+"WAITING_PAY_OFF_TITLE" = "Danos un minuto";
+"WAITING_PAY_OFF_SUBTITLE" = "Estamos cerrando tu préstamo, cuando terminemos vas a poder ver el detalle y descargar el comprobante.";
+"PAY_OF_DUE_SUCCESSFUL_TITLE" = "¡Listo!";
+"PAY_OF_DUE_SUCCESSFUL_SUBTITLE" = "Pagaste una parte del préstamo antes de tiempo. ¡Cuanta responsabilidad!";
+"PAY_OF_DUE_ERROR_TITLE" = "Ouu, hubo un problema :/";
+"PAY_OF_DUE_ERROR_SUBTITLE" = "¿Probás de nuevo?";
+
+
+//Closed Loan Detail
+"DOWNLOAD_FREE_DEBT" = "Descargar libre de deuda";
+"CLOSED_LOAN_DETAIL_TITLE" = "Préstamo $number: $status";
+"CLOSED_LOAN_START_DATE" = "Inicio: $date";
+"CLOSED_LOAN_END_DATE" = "Finalización: $date";
+"CLOSED_STATUS" = "finalizado";
+"PENDING_CLOSED_STATUS" = "procesando cierre";
+
+//Loan Glossary
+"LOAN_GLOSSARY_TITLE" = "¿Qué son estas siglas?";
+
+//Simulator Prompt Amount
+"SIMULATOR_PROMPT_TITLE" = "¿Cuánto querés pedir? ";
+"SIMULATOR_PROMPT_SUBTITLE" = "El mínimo que te podemos prestar es $minAmount y el máximo $maxAmount.";
+
+//Simulator Loan Detail
+"SIMULATOR_DETAIL_TITLE" = "Préstamo total: $totalAmount";
+"SIMULATOR_DETAIL_SUBTITLE" = "Detalle de cuotas";
+
+//Fees filters
+"ALL" = "Todas";
+"PAID_FILTER" = "Pagas";
+"PENDING_FILTER" = "Pendientes";
+"LATE" = "Deuda";
+
+//Installments Simulator
+"INSTALLMENTS_SIMULATOR_TITLE" = "¿En cuántas cuotas querés pagarlo?";
+"DETAIL" = "Detalle";
+"FINAL_AMOUNT" = "Monto final";
+"PAYMENTS_NUMBER" = "$payments $fees de $amount";
+"FEE" = "cuota";
+"FEES" = "cuotas";
+"INSTALLMENTS" = "Cuotificación";
+
+//Expiration day
+"EXPIRATION_DAY_DEFAULT_TITLE" = "¿Qué día del mes querés pagar la cuota?";
+"EXPIRATION_DAY_DEFAULT_SUBTITLE" = "Si cae fin de semana o feriado, se pasa para el siguiente día hábil.";
+"EXPIRATION_DAY_OPTION_TEXT" = "El $value";
+
+//Installments creation feedback
+"WAITING_INSTALLMENTS_TITLE" = "Danos un minuto";
+"WAITING_INSTALLMENTS_SUBTITLE" = "Te vamos a avisar ni bien esté confirmada.";
+"INSTALLMENTS_WAITING_BACK" = "Volver a inicio";
+"INSTALLMENTS_SUCCESSFUL_TITLE" = "¡Listo! Ya lo pasaste a cuotas";
+"INSTALLMENTS_SUCCESSFUL_SUBTITLE" = "Te devolvimos los $amount para que después los pagues en $installments_number $installments.";
+
+//Credits home
+"INSTALLMENTS_CONSUMPTIONS" = "Cuotas";
+"ONLINE_CREDIT" = "Crédito online";
+"AVAILABLE_BALANCE" = "Podés pasar a cuotas hasta $amount más.";
+"AVAILABLE_BALANCE_ONLINE_CREDIT"= "Todavía tenés $amount más para pagar tus servicios.";
+"NEXT_DUE_DATE" = "Próximo vencimiento";
+"MY_INSTALLMENTS_CONSUMPTIONS" = "Mis consumos en cuotas";
+"INSTALLMENTS_TITLE" = "Consumos en cuotas";
+
+//Installments home tutorial
+"INSTALLMENTS_HOME_TUTORIAL_TITLE" = "Pagá tus consumos en cuotas";
+"INSTALLMENTS_HOME_TUTORIAL_CREDIT" = "Elegís los consumos que quieras entre $minAmount y $maxAmount.";
+"INSTALLMENTS_HOME_TUTORIAL_REINBURSEMENT" = "Te devolvemos el total de ese gasto en tu cuenta Ualá.";
+"INSTALLMENTS_HOME_TUTORIAL_INSTALLMENTS" = "Lo vas pagando en cuotas fijas y mensuales con bajos intereses.";
+"CHOOSE_TRANSACTION" = "Elegir consumo";
+"CHOOSE_TRANSACTIONS" = "Elegir consumos";
+"CHOOSE_SERVICE" = "Elegir servicio";
+
+//Installments phone validation
+"CHOOSE_WAY_TO_VALIDATE_PHONE" = "Elegí cómo querés validar tu celular $phone";
+"CHANGED_NUMBER" = "¿Cambiaste de número?";
+"MODIFY" = "Modificar";
+"PIN_VERIFICATION_TITLE" = "¿Cuál es el código?";
+"PHONE_PIN_VALIDATION_RESENDCODE" = "Recibirlo por llamada de voz";
+"YOUR_PHONE" = "¿Cuál es tu celular?";
+"AREA_CODE_EXAMPLE" = "Sin el 0. Ej: 11";
+
+//Installments contract
+"CONTRACT_RETURN" = "Te vamos a devolver";
+"NUMBER_OF_PAYMENTS" = "y lo pagás en $numberOfPayments $fees de";
+"EXPIRATION_DAY" = "el $day de cada mes";
+"EXPIRATION_DAY_INFO" = "La fecha de vecimiento es la misma que la de tus cuotas pendientes";
+"CONFIRM" = "Confirmar";
+"TERMS_AND_CONDITIONS" = "Acepto los términos y condiciones.";
+"INSTALLMENTS_OFFER" = "Oferta de consumo en cuotas";
+
+//Installments detail
+"PENDING_FEES" = "Cuotas pendientes";
+"PAID_FEES" = "Cuotas pagas";
+"COSTS_DETAIL" = "Detalle de costos";
+"CANCEL_ACTION" = "Cancelar";
+
+//Choose transaction
+"AVAILABLE_INSTALLMENTS_BALANCE" = "Te quedan $amount disponibles para usar.";
+"INSTALLMENTS_TRANSACTIONS" = "Consumos cuotificables";
+"CHOOSE_TRANSACTIONS_TITLE" = "Seleccioná los consumos que querés pasar a cuotas";
+"INSTALLMENTS_BALANCE" = "Podés usar en cuotas hasta $amount.";
+"CREDIT_LIMIT" = "Este es tu límite de crédito";
+"CREDIT_LIMIT_INCREASE" = "Tu límite aumenta al pagar las cuotas.";
+
+//No transactions placeholder
+"NO_TRANSACTIONS_TITLE" = "No tenés consumos cuotificables por ahora :(";
+"NO_TRANSACTIONS_SUBTITLE" = "Para usar cuotas tenés que haber realizado dentro de los últimos 6 meses un consumo o pago de servicio mayor a $100 y menor a $maxAmount.";
+
+//Credits limit
+"CREDIT_AVAILABLE" = "Crédito disponible";
+"USED_CREDIT" = "Crédito en uso";
+"CREDIT_LIMIT_AMOUNT" = "Límite de crédito: $amount";
+"CREDIT_LIMIT_INFO" = "Es el máximo que tenés para pasar a cuotas tus consumos.";
+"AVAILABLE_CREDIT_AMOUNT" = "Crédito disponible: $amount";
+"AVAILABLE_CREDIT_INFO" = "Es lo que todavía podés usar para pasar a cuotas. Al pagar una cuota, aumenta.";
+"USED_CREDIT_AMOUNT" = "Crédito en uso: $amount";
+"USED_CREDIT_INFO" = "Es lo que tenés pendiente pagar de tus consumos en cuotas.  ";
+
+//Installments detail
+"INSTALLMENTS_DETAIL" = "Detalle de cuotificación";
+"INSTALLMENTS_INFO" = "Información de cuotificación";
+"ADDITIONAL_INFO" = "Información adicional";
+"REQUESTED_AMOUNT" = "Monto solicitado";
+"EACH_PAYMENT_AMOUNT" = "$amount c/u";
+"FOOTER_INFORMATION" = "Te devolvemos el monto del consumo en tu Ualá, las cuotas son mensuales y fijas.";
+"GRANT_AMOUNT" = "Costo de otorgamiento";
+"TNA" = "Tasa Nominal Anual (TNA)";
+"TEA" = "Tasa Efectiva Anual (TEA)";
+"CFT" = "Costo Financiero Total (CFT)";
+"TNA_DESCRIPTION" = "Tasa Nominal Anual (TNA)";
+"TEA_DESCRIPTION" = "Tasa Efectiva Anual (TEA)";
+"CFT_DESCRIPTION" = "Costo Financiero Total (CFT)";
+"CFT+IVA" = "CFT+IVA";
+"PERCENTAGE_AMOUNT" = "$amount%";
+"ASK" = "Pedir";
+"STATUS" = "Estado";
+"STATUS_ACTIVE" = "En curso";
+"STATUS_CLOSED" = "Finalizado";
+"STATUS_ACTIVE_IN_ARREARS" = "En deuda";
+"SEE_ORIGINAL_TRANSACTION" = "Ver consumo original";
+
+//Installments pay off
+"INSTALLMENTS_PAY_OFF_SUCCESSFUL_TITLE" = "¡Pagaste todo!";
+"INSTALLMENTS_PAY_OFF_SUCCESSFUL_SUBTITLE" = "Ahora tenés más crédito disponible para usar pasando a cuotas tus consumos.\n¡Cuánta responsabilidad!";
+"INSTALLMENTS_WAITING_BACK_PAY_OFF" = "Volver a mis cuotas";
+"INSTALLMENTS_CONFIRM_PAY_OFF_TITLE" = "Vas a pagar los";
+"INSTALLMENTS_CONFIRM_PAY_OFF_SUBTITLE" = "de tu consumo en cuotas";
+
+//Second loan home
+"SECOND_LOAN_AMOUNT" = "¡Obtené hoy un préstamo\nde hasta $amount!";
+"BENEFIT_FOR_YOU" = "Beneficio sólo para vos";
+"BENEFIT_TNA" = "Con tasa fija del $tna";
+"BENEFIT_STEPS" = "En 3 simples pasos";
+"BENEFIT_DISBURSE" = "Acreditación en el día";
+"ASK_LOAN_WITH_BENEFIT" = "Pedir ahora";
+"ASK_REGULAR_LOAN_AMOUNT" = "Solicitá hasta $300.000";
+"ASK_REGULAR_LOAN_DISCLAIMER" = "Sujeto a evaluación crediticia";
+"ASK_REGULAR_LOAN" = "Entrá y simulá tu préstamo";
+"SHOW_CLOSED_LOANS_HISTORY" = "Ver historial";
+
+//Second loan review
+"REVIEW_ADDRESS" = "Dirección";
+"REVIEW_PROVINCE_CITY" = "Provincia y localidad";
+"REVIEW_TITLE" = "¿Están bien los datos?";
+"REVIEW_SUBTITLE" = "Consulta que todos sean correctos, ya que son necesarios para activar el préstamo.";
+"REVIEW_OK" = "Sí, están bien";
+"READY" = "Listo";
+
+//Online credit
+"ONLINE_CREDIT_AVAILABLE" = "¡Tenés hasta $credit para pagar tus servicios!";
+"ONLINE_CREDIT_HOW_TO" = "Ingresá a la sección Pagos, elegí el servicio que quieras y te prestamos la plata para pagarlo.";
+"ONLINE_CREDIT_INSTALLMENTS" = "Podés pagarlo en cuotas.";
+"ONLINE_CREDIT_DATA" = "Es inmediato y no necesitás ningun dato previo.";
+
+//History
+"HISTORY" = "Historial";

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Test</key>
+	<dict>
+		<key>SF_CHAT_STATUS_URL</key>
+		<string>https://statuschat.test.cxapp.ua.la/cxapp/crm/mex</string>
+		<key>SF_CHAT_STATUS_MX_URL</key>
+		<string>https://crmcxapp.api.test.cxapp.mx.ua.la</string>
+	</dict>
+	<key>Develop</key>
+	<dict>
+		<key>SF_CHAT_STATUS_URL</key>
+		<string>https://statuschat.dev.cxapp.ua.la/cxapp/crm/mex</string>
+		<key>SF_CHAT_STATUS_MX_URL</key>
+		<string>https://crmcxapp.api.dev.cxapp.mx.ua.la</string>
+	</dict>
+	<key>Stage</key>
+	<dict>
+		<key>SF_CHAT_STATUS_URL</key>
+		<string>https://statuschat.stage.cxapp.ua.la/cxapp/crm/mex</string>
+		<key>SF_CHAT_STATUS_MX_URL</key>
+		<string>https://crmcxapp.api.stage.cxapp.mx.ua.la</string>
+	</dict>
+	<key>Production</key>
+	<dict>
+		<key>SF_CHAT_STATUS_URL</key>
+		<string>https://statuschat.api.cxapp.ua.la/cxapp/crm/mex</string>
+		<key>SF_CHAT_STATUS_MX_URL</key>
+		<string>https://crmcxapp.api.cxapp.mx.ua.la</string>
+	</dict>
+	<key>Constants</key>
+	<dict>
+		<key>TEST_CONSTANT</key>
+		<string>MEXICO_CONSTANT</string>
+	</dict>
+</dict>
+</plist>

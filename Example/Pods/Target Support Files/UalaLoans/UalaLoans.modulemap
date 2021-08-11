@@ -1,0 +1,6 @@
+framework module UalaLoans {
+  umbrella header "UalaLoans-umbrella.h"
+
+  export *
+  module * { export * }
+}

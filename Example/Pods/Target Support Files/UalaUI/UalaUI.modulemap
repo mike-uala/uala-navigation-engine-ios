@@ -1,0 +1,6 @@
+framework module UalaUI {
+  umbrella header "UalaUI-umbrella.h"
+
+  export *
+  module * { export * }
+}

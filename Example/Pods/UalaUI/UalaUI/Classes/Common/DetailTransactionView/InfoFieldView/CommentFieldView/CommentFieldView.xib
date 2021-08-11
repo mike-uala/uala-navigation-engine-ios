@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CommentFieldView" customModule="Uala" customModuleProvider="target">
+            <connections>
+                <outlet property="commentLabel" destination="646-rp-cXm" id="yIC-Sc-Lfw"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="tiy-dr-yJR"/>
+                <outlet property="leadingMargin" destination="0IH-9Z-ZDf" id="72A-u7-I2v"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="72"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="commentBox" translatesAutoresizingMaskIntoConstraints="NO" id="dJa-NZ-n40">
+                    <rect key="frame" x="28" y="28.5" width="12" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="rfm-qO-hfP"/>
+                        <constraint firstAttribute="width" constant="12" id="s2b-eZ-ZkB"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QGj-EY-AFT" userLabel="Box">
+                    <rect key="frame" x="40" y="12" width="307" height="48"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="646-rp-cXm">
+                            <rect key="frame" x="23" y="16" width="263" height="19"/>
+                            <fontDescription key="fontDescription" type="italicSystem" pointSize="14"/>
+                            <color key="textColor" red="0.67450980392156867" green="0.67450980392156867" blue="0.69803921568627447" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="646-rp-cXm" secondAttribute="trailing" constant="21" id="OZq-ed-T0T"/>
+                        <constraint firstItem="646-rp-cXm" firstAttribute="top" secondItem="QGj-EY-AFT" secondAttribute="top" constant="16" id="Pef-zy-WVx"/>
+                        <constraint firstItem="646-rp-cXm" firstAttribute="leading" secondItem="QGj-EY-AFT" secondAttribute="leading" constant="23" id="i1V-mz-9Y6"/>
+                        <constraint firstAttribute="bottom" secondItem="646-rp-cXm" secondAttribute="bottom" constant="13" id="xwM-au-QEU"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="dJa-NZ-n40" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="28" id="0IH-9Z-ZDf"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QGj-EY-AFT" secondAttribute="trailing" constant="28" id="39Z-QO-DPX"/>
+                <constraint firstItem="dJa-NZ-n40" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="28.5" id="GhY-DT-cZH"/>
+                <constraint firstItem="QGj-EY-AFT" firstAttribute="leading" secondItem="dJa-NZ-n40" secondAttribute="trailing" id="MxC-KN-Mje"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="QGj-EY-AFT" secondAttribute="bottom" constant="12" id="U6l-0t-c36"/>
+                <constraint firstItem="QGj-EY-AFT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="12" id="agA-8U-TbV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-210" y="42"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="commentBox" width="12" height="20"/>
+    </resources>
+</document>

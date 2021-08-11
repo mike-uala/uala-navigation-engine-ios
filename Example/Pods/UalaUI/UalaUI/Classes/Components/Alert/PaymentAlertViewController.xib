@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PaymentAlertViewController" customModule="Uala" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="cyZ-ws-XaS" id="dNW-BN-eLg"/>
+                <outlet property="containerView" destination="UNm-3W-VrB" id="JJn-Mp-EPy"/>
+                <outlet property="crossButton" destination="cFv-Z2-yZe" id="hiP-qP-Lyx"/>
+                <outlet property="imageBackgroundView" destination="AC0-yK-IuJ" id="w4F-kS-ANu"/>
+                <outlet property="imageView" destination="RDw-iR-OK4" id="buC-H5-HHM"/>
+                <outlet property="subtitleLabel" destination="CMZ-Gc-3Pu" id="9Q0-CV-BXE"/>
+                <outlet property="titleLabel" destination="S6l-XH-FOt" id="URL-jW-EmQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UNm-3W-VrB">
+                    <rect key="frame" x="32" y="143.5" width="311" height="380"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AC0-yK-IuJ">
+                            <rect key="frame" x="0.0" y="0.0" width="311" height="173"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sadFace" translatesAutoresizingMaskIntoConstraints="NO" id="RDw-iR-OK4">
+                                    <rect key="frame" x="101" y="32" width="109" height="110"/>
+                                </imageView>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFv-Z2-yZe">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="50" id="AZF-dR-uUp"/>
+                                        <constraint firstAttribute="height" constant="50" id="sp6-CK-0XN"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                    <state key="normal" title="x">
+                                        <color key="titleColor" red="0.24313725489999999" green="0.41960784309999999" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    </state>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.24185355296206124" green="0.97851092743340562" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstItem="cFv-Z2-yZe" firstAttribute="top" secondItem="AC0-yK-IuJ" secondAttribute="top" id="1Vf-ui-EsQ"/>
+                                <constraint firstItem="cFv-Z2-yZe" firstAttribute="leading" secondItem="AC0-yK-IuJ" secondAttribute="leading" id="OTG-Pp-L8m"/>
+                                <constraint firstItem="RDw-iR-OK4" firstAttribute="centerX" secondItem="AC0-yK-IuJ" secondAttribute="centerX" id="POC-xY-o6y"/>
+                                <constraint firstItem="RDw-iR-OK4" firstAttribute="centerY" secondItem="AC0-yK-IuJ" secondAttribute="centerY" id="btM-nK-OwF"/>
+                                <constraint firstAttribute="height" constant="173" id="m8v-c1-ybP"/>
+                            </constraints>
+                        </view>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="agq-Qi-gYe">
+                            <rect key="frame" x="20" y="193" width="271" height="117"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¡Oh no! No se pudo completar la recarga" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S6l-XH-FOt">
+                                    <rect key="frame" x="0.0" y="0.0" width="271" height="41"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hubo un error y no pudimos completar la recarga. Volvé a intentarlo más tarde." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMZ-Gc-3Pu">
+                                    <rect key="frame" x="0.0" y="56" width="271" height="61"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cyZ-ws-XaS">
+                            <rect key="frame" x="0.0" y="330" width="311" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="Gp0-dQ-L9g"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="agq-Qi-gYe" firstAttribute="top" secondItem="AC0-yK-IuJ" secondAttribute="bottom" constant="20" id="1V0-zw-BbY"/>
+                        <constraint firstAttribute="trailing" secondItem="AC0-yK-IuJ" secondAttribute="trailing" id="2PL-cC-6Ex"/>
+                        <constraint firstItem="AC0-yK-IuJ" firstAttribute="top" secondItem="UNm-3W-VrB" secondAttribute="top" id="8oM-wX-1YD"/>
+                        <constraint firstItem="AC0-yK-IuJ" firstAttribute="leading" secondItem="UNm-3W-VrB" secondAttribute="leading" id="BFb-I5-USl"/>
+                        <constraint firstAttribute="height" priority="250" constant="380" id="Eav-63-tXA"/>
+                        <constraint firstItem="cyZ-ws-XaS" firstAttribute="leading" secondItem="UNm-3W-VrB" secondAttribute="leading" id="Wa7-eb-KeG"/>
+                        <constraint firstAttribute="trailing" secondItem="cyZ-ws-XaS" secondAttribute="trailing" id="gKs-RV-O5l"/>
+                        <constraint firstAttribute="bottom" secondItem="cyZ-ws-XaS" secondAttribute="bottom" id="mf6-wu-e3d"/>
+                        <constraint firstItem="agq-Qi-gYe" firstAttribute="leading" secondItem="UNm-3W-VrB" secondAttribute="leading" constant="20" id="r5s-rE-OJ5"/>
+                        <constraint firstItem="cyZ-ws-XaS" firstAttribute="top" secondItem="agq-Qi-gYe" secondAttribute="bottom" constant="20" id="xqg-mZ-Ft6"/>
+                        <constraint firstAttribute="trailing" secondItem="agq-Qi-gYe" secondAttribute="trailing" constant="20" id="zWp-x5-Axb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.25547425176056338" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="UNm-3W-VrB" secondAttribute="trailing" constant="32" id="2o1-h6-eN6"/>
+                <constraint firstItem="UNm-3W-VrB" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="NFT-cl-nfB"/>
+                <constraint firstItem="UNm-3W-VrB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="32" id="uG4-K1-nYP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="50" y="63"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="sadFace" width="109" height="110"/>
+    </resources>
+</document>

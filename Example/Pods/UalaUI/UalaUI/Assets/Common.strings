@@ -1,0 +1,46 @@
+"ADD_COMMENT" = "Agregar comentario";
+"CANCEL" = "Cancelar";
+"READY" = "Listo";
+"WRITE_COMMENT" = "Agregar comentario";
+"EDIT_COMMENT" = "Modificar comentario";
+
+"INVALID_PIN_CODE" = "¿Esa es tu clave? No la reconocemos.";
+"INVALID_PIN_TRY_LATER" = "Ya no tenés más intentos. Volvé a probar en un rato.";
+
+"NOT_CVU_CBU" = "Ese no parece ser un CVU/CBU, revisalo.";
+"INACTIVE_CVU_CBU" = "Ese CBU parece de una cuenta inactiva, ¿lo revisás?";
+"ACCOUNT_IN_PESOS" = "La cuenta tiene que ser en pesos.";
+"GENERIC_CVU_OUT_ERROR" = "Hubo un problema :/ ¿Probás de nuevo?";
+"INVALID_CBU_ERROR" = "Ese no parece ser tu CBU, ¿lo revisás?";
+"BANK_CBU_ERROR" = "Necesitamos que sea una cuenta bancaria, no una virtual.";
+"INACTIVE_CBU_ERROR" = "Ese CBU parece de una cuenta inactiva, ¿lo revisás?";
+"CURRENCY_CBU_ERROR" = "La cuenta tiene que estar en la misma moneda que el préstamo.";
+
+"FOLLOW" = "Seguir";
+"YES" = "Sí";
+"NO" = "No";
+
+"TAX_COUNTRY_QUESTION" = "¿Pagás impuestos en otro país además de Argentina?";
+"WHERE?" = "¿En dónde?";
+"UIF_QUESTION" = "¿Sos sujeto obligado ante la UIF?";
+"UIF_DESC" = "Desarrollás una actividad incluida en el artículo 20 de la ley 25.246, sus modificatorias y las resoluciones UIF pertinentes.";
+"UIF_TYPE_QUESTION" = "¿Qué tipo de sujeto obligado sos?";
+"MFA_TITLE" = "Ingresá tu clave de seguridad";
+
+// MARK: - Camera Attachment
+"SELFIE_REVIEW_TITLE" = "¿Cómo la ves?";
+"SELFIE_REVIEW_DESCRIPTION" = "Asegurate de que no esté movida, tenga buena luz y pueda servir para compararla con la del DNI.";
+"DOCUMENT_REVIEW_TITLE"= "¿Se leen bien los datos?";
+"DOCUMENT_REVIEW_DESCRIPTION"= "Asegurate de que no esté movida, tenga buena luz y no haya información tapada.";
+"IDENTIFICATION_REVIEW_TITLE"= "¿Cómo la ves?";
+"IDENTIFICATION_REVIEW_DESCRIPTION"= "Debes poder leer los datos fácilmente. Revisa que no tenga reflejos de luz.";
+"SELFIE_REVIEW_CANCEL" = "Cambiar foto";
+"SELFIE_REVIEW_CONFIRM" = "Se ve bien";
+
+"TRANSFER_ERROR_TITLE" = "No pudimos hacer la transferencia";
+"TRANSFER_ERROR_SUBTITLE" = "Hubo un problema al procesarlo. ¿Intentás de nuevo en un rato?";
+"READY_SENT" = "¡Listo!\nLe mandaste";
+"TO" = "a";
+"COPIED" = "¡Copiado!";
+"LOCATIONS_LIST_TITLE" = "Ver lista de tiendas";
+"NO_LOCATIONS" = "Muévete por el mapa para encontrar alguna tienda.";

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0</key>
+	<dict>
+		<key>DESCRIPTION</key>
+		<string>Es el costo real del préstamo: la suma del interés por el dinero prestado, los gastos, las comisiones, seguros e impuestos que vas a pagar durante el préstamo. 
+</string>
+		<key>SUBTITLE</key>
+		<string>Costo Financiero Total</string>
+		<key>TITLE</key>
+		<string>CFT</string>
+	</dict>
+	<key>1</key>
+	<dict>
+		<key>DESCRIPTION</key>
+		<string>Es el costo que tiene la plata por devolverlo en cuotas mensuales. Si bien el costo es anual como el TNA, como la devolución se hace una vez por mes, la tasa aumenta. Eso hace que la TEA siempre sea mayor que la TNA. 
+
+Este porcentaje te sirve para comparar créditos para pagarse en menos de un año. 
+</string>
+		<key>SUBTITLE</key>
+		<string>Tasa Efectiva Anual</string>
+		<key>TITLE</key>
+		<string>TEA</string>
+	</dict>
+	<key>2</key>
+	<dict>
+		<key>DESCRIPTION</key>
+		<string>Es un porcentaje sobre la plata que pedís prestada en el tiempo de un año. Esa tasa define cuánto vas a pagar de intereses por tu préstamo.
+
+Por ejemplo, si pedís $10.000 con una TNA de 20% y devolvés la plata en un año, los intereses anuales van a ser de $2.000.
+ 
+</string>
+		<key>SUBTITLE</key>
+		<string>Tasa Nominal Anual</string>
+		<key>TITLE</key>
+		<string>TNA</string>
+	</dict>
+</dict>
+</plist>

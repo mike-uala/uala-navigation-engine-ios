@@ -1,0 +1,266 @@
+[
+  {
+    "code": "005",
+    "bank": "ABN AMRO Bank"
+  },
+  {
+    "code": "007",
+    "bank": "Banco Galicia"
+  },
+  {
+    "code": "011",
+    "bank": "Banco Nación"
+  },
+  {
+    "code": "014",
+    "bank": "Banco Provincia"
+  },
+  {
+    "code": "015",
+    "bank": "ICBC"
+  },
+  {
+    "code": "016",
+    "bank": "Citibank"
+  },
+  {
+    "code": "017",
+    "bank": "BBVA Banco Francés"
+  },
+  {
+    "code": "018",
+    "bank": "The Bank of Tokyo-Mitsubishi"
+  },
+  {
+    "code": "020",
+    "bank": "Banco de Córdoba"
+  },
+  {
+    "code": "027",
+    "bank": "Banco Supervielle"
+  },
+  {
+    "code": "029",
+    "bank": "Banco Ciudad"
+  },
+  {
+    "code": "034",
+    "bank": "Banco Patagonia"
+  },
+  {
+    "code": "044",
+    "bank": "Banco Hipotecario"
+  },
+  {
+    "code": "045",
+    "bank": "Banco de San Juan"
+  },
+  {
+    "code": "046",
+    "bank": "Banco do Brasil"
+  },
+  {
+    "code": "060",
+    "bank": "Banco de Tucumán"
+  },
+  {
+    "code": "065",
+    "bank": "Banco Municipal de Rosario"
+  },
+  {
+    "code": "072",
+    "bank": "Banco Santander Río"
+  },
+  {
+    "code": "079",
+    "bank": "Banco Regional de Cuyo"
+  },
+  {
+    "code": "083",
+    "bank": "Banco del Chubut"
+  },
+  {
+    "code": "093",
+    "bank": "Banco de La Pampa"
+  },
+  {
+    "code": "094",
+    "bank": "Banco de Corrientes"
+  },
+  {
+    "code": "097",
+    "bank": "Banco Provincia del Neuquén"
+  },
+  {
+    "code": "147",
+    "bank": "Banco B.I. Creditansalt"
+  },
+  {
+    "code": "150",
+    "bank": "Banco HSBC"
+  },
+  {
+    "code": "165",
+    "bank": "J.P. Morgan Chase Bank"
+  },
+  {
+    "code": "191",
+    "bank": "Banco Credicoop"
+  },
+  {
+    "code": "198",
+    "bank": "Banco de Valores"
+  },
+  {
+    "code": "247",
+    "bank": "Banco Roela"
+  },
+  {
+    "code": "254",
+    "bank": "Banco Mariva"
+  },
+  {
+    "code": "259",
+    "bank": "Banco Itaú"
+  },
+  {
+    "code": "262",
+    "bank": "Bank of America"
+  },
+  {
+    "code": "266",
+    "bank": "BNP Paribas"
+  },
+  {
+    "code": "268",
+    "bank": "Banco Provincia de Tierra del Fuego"
+  },
+  {
+    "code": "269",
+    "bank": "Banco del Uruguay"
+  },
+  {
+    "code": "277",
+    "bank": "Banco Saenz"
+  },
+  {
+    "code": "281",
+    "bank": "Banco Meridian"
+  },
+  {
+    "code": "285",
+    "bank": "Banco Macro"
+  },
+  {
+    "code": "295",
+    "bank": "American Express Bank"
+  },
+  {
+    "code": "299",
+    "bank": "Banco Comafi"
+  },
+  {
+    "code": "300",
+    "bank": "Banco de Inversión y Comercio Exterior"
+  },
+  {
+    "code": "301",
+    "bank": "Banco Piano"
+  },
+  {
+    "code": "303",
+    "bank": "Banco Finansur"
+  },
+  {
+    "code": "305",
+    "bank": "Banco Julio"
+  },
+  {
+    "code": "306",
+    "bank": "Banco Privado de Inversiones"
+  },
+  {
+    "code": "309",
+    "bank": "Nuevo Banco de la Rioja"
+  },
+  {
+    "code": "310",
+    "bank": "Banco del Sol"
+  },
+  {
+    "code": "311",
+    "bank": "Nuevo Banco del Chaco"
+  },
+  {
+    "code": "312",
+    "bank": "MBA Banco de Inversiones"
+  },
+  {
+    "code": "315",
+    "bank": "Banco Formosa"
+  },
+  {
+    "code": "319",
+    "bank": "Banco CMF"
+  },
+  {
+    "code": "321",
+    "bank": "Banco de Santiago del Estero"
+  },
+  {
+    "code": "322",
+    "bank": "Banco Industrial"
+  },
+  {
+    "code": "325",
+    "bank": "Deutsche Bank"
+  },
+  {
+    "code": "330",
+    "bank": "Nuevo Banco de Santa Fe"
+  },
+  {
+    "code": "331",
+    "bank": "Banco Cetelem Argentina"
+  },
+  {
+    "code": "332",
+    "bank": "Banco de Servicios Financieros"
+  },
+  {
+    "code": "335",
+    "bank": "Banco Cofidis"
+  },
+  {
+    "code": "336",
+    "bank": "Banco Bradesco Argentino"
+  },
+  {
+    "code": "338",
+    "bank": "Banco de Servicios y Transacciones"
+  },
+  {
+    "code": "339",
+    "bank": "RCI Banque"
+  },
+  {
+    "code": "340",
+    "bank": "BACS Banco de Crédito y Transacciones"
+  },
+  {
+    "code": "341",
+    "bank": "Banco Masventas"
+  },
+  {
+    "code": "386",
+    "bank": "Nuevo Banco de Entre Ríos"
+  },
+  {
+    "code": "388",
+    "bank": "Nuevo Banco Bisel"
+  },
+  {
+    "code": "389",
+    "bank": "Banco Columbia"
+  }
+]

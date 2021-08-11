@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CategoryFieldView" customModule="Uala" customModuleProvider="target">
+            <connections>
+                <outlet property="categoryButton" destination="NBA-dt-TzA" id="qCO-p4-gFs"/>
+                <outlet property="categoryImageView" destination="crJ-sU-nWv" id="ZKF-jh-CMe"/>
+                <outlet property="categoryLabel" destination="lsh-pp-msa" id="FBS-tx-vSV"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="2oR-5i-o3Z"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="48"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="crJ-sU-nWv">
+                    <rect key="frame" x="28" y="11" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="Xk2-Ui-QAb"/>
+                        <constraint firstAttribute="height" constant="24" id="oAU-xS-1BR"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lsh-pp-msa">
+                    <rect key="frame" x="65" y="15.5" width="258" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.38039215686274508" green="0.38039215686274508" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vaU-BJ-2P4">
+                    <rect key="frame" x="28" y="47" width="319" height="1"/>
+                    <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="EO4-uT-Zbg"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NBA-dt-TzA">
+                    <rect key="frame" x="323" y="12" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="EjH-tZ-AzX"/>
+                        <constraint firstAttribute="width" constant="24" id="jWe-x8-8hC"/>
+                    </constraints>
+                    <state key="normal" image="categoryEdit"/>
+                    <connections>
+                        <action selector="didClickCategoryButton:" destination="-1" eventType="touchUpInside" id="XaE-YG-VgI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="NBA-dt-TzA" secondAttribute="trailing" constant="28" id="4r9-oc-aw1"/>
+                <constraint firstItem="vaU-BJ-2P4" firstAttribute="trailing" secondItem="NBA-dt-TzA" secondAttribute="trailing" id="JkW-zF-Knw"/>
+                <constraint firstItem="crJ-sU-nWv" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="28" id="La8-rG-ykH"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="vaU-BJ-2P4" secondAttribute="bottom" id="OLj-T8-phI"/>
+                <constraint firstItem="NBA-dt-TzA" firstAttribute="leading" secondItem="lsh-pp-msa" secondAttribute="trailing" id="bHJ-hu-fTr"/>
+                <constraint firstItem="lsh-pp-msa" firstAttribute="centerY" secondItem="vUN-kp-3ea" secondAttribute="centerY" id="gPT-XK-XcL"/>
+                <constraint firstItem="NBA-dt-TzA" firstAttribute="centerY" secondItem="lsh-pp-msa" secondAttribute="centerY" id="gv5-kL-lGJ"/>
+                <constraint firstItem="lsh-pp-msa" firstAttribute="leading" secondItem="crJ-sU-nWv" secondAttribute="trailing" constant="13" id="n7d-4N-l51"/>
+                <constraint firstItem="vaU-BJ-2P4" firstAttribute="leading" secondItem="crJ-sU-nWv" secondAttribute="leading" id="qdI-Cp-68t"/>
+                <constraint firstItem="vaU-BJ-2P4" firstAttribute="top" secondItem="crJ-sU-nWv" secondAttribute="bottom" constant="12" id="vLK-3u-xrx"/>
+                <constraint firstItem="crJ-sU-nWv" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="11" id="zgm-Is-JPB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-37.600000000000001" y="80.059970014992516"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="categoryEdit" width="24" height="24"/>
+    </resources>
+</document>
